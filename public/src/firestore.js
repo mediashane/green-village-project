@@ -17,12 +17,14 @@ export default new Vue({
       persons: [],
       dailySubscriptions: [],
       delivery: [],
+      stock: [],
       start: null,
       end: null,
       // ToDo: Add all collections
-      collections: ['delivery'],
+      collections: ['delivery', 'stock'],
       collectionsPending: {
-        delivery: false
+        delivery: false,
+        stock: false
       }
     }
   },
